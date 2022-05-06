@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="name">
+            <h1>
+                <span>FIRST NAME</span><br>
+                <span style="font-weight: lighter;">SURNAME</span>
+            </h1>
+        </div>
+        <div class="info">
+            <div class="info-item">
+                <span>Address</span>
+                <i class="fa-solid fa-house"></i>
+            </div>
+            <div class="info-item">
+                <span>Phone number</span>
+                <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <div class="info-item">
+                <span>Email address</span>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="info-item">
+                <span>Linkedin profile</span>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="info-item">
+                <span>Twitter/blog/portfolio</span>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="objective">
+        <div class="parts first">
+            <div class="obj_logo logo"> 
+                <i class="fa-solid fa-newspaper"></i>
+            </div>
+            <h2 class="head">OBJECTIVE</h2>
+        </div>
+        <div class="about">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ut assumenda animi quisquam libero necessitatibus nemo esse voluptatem, voluptatibus quidem quaerat molestiae optio minima! Provident ducimus nostrum illum dolore libero.</p>
+        </div>
+    </section>
+    <section class="education"> 
+        <div class="parts">
+            <div class="edu_logo logo">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <h2 class="head">EDUCATION</h2>
+        </div>
+        <div class="titles">
+            <span class="title">Degree/Qualification Title |</span>
+            <span>College or University</span>
+        </div>
+        <div class="dates">
+            <span>DATES FROM - TO</span>
+        </div>
+        <div class="about">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi a maxime possimus sunt ut amet minus culpa, fugit, non exercitationem qui at iure illo dolores omnis nostrum dolorem minima porro?</p>
+        </div>
+        <div class="titles">
+            <span class="title">Degree/Qualification Title |</span>
+            <span>College or University</span>
+        </div>
+        <div class="dates">
+            <span>DATES FROM - TO</span>
+        </div>
+        <div class="about">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi a maxime possimus sunt ut amet minus culpa, fugit, non exercitationem qui at iure illo dolores omnis nostrum dolorem minima porro?</p>
+        </div>
+    </section>
+    <section class="experience">
+        <div class="parts">
+            <div class="exp_logo logo">
+                <i class="fa-solid fa-check-to-slot"></i>
+            </div>
+            <h2 class="head">EXPERIENCE</h2>
+        </div>
+        <div class="titles">
+            <span class="title">Job Title |</span>
+            <span>Company</span>
+        </div>
+        <div class="dates">
+            <span>DATES FROM - TO</span>
+        </div>
+        <div class="about">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, enim eum ab, possimus id incidunt aperiam consectetur corrupti quod corporis nostrum accusantium molestiae ex, soluta culpa quo. Corrupti, voluptatibus facilis!</p>
+        </div>
+        <div class="titles">
+            <span class="title">Job Title |</span>
+            <span>Company</span>
+        </div>
+        <div class="dates">
+            <span>DATES FROM - TO</span>
+        </div>
+        <div class="about">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, enim eum ab, possimus id incidunt aperiam consectetur corrupti quod corporis nostrum accusantium molestiae ex, soluta culpa quo. Corrupti, voluptatibus facilis!</p>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="parts">
+            <div class="skills_logo logo">
+                <i class="fa-solid fa-paintbrush"></i>
+            </div>
+            <h2 class="head">SKILLS</h2>
+        </div>
+            <ul style="margin-left: 50px;">
+                <li>strength</li>
+                <li>strength</li>
+                <li>strength</li>
+                <li>strength</li>
+                <li>strength</li>
+            </ul>
+    </section>
+    <section class="activities">
+        <div class="parts">
+            <div class="act_logo logo">
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <h2 class="head">ACTIVITIES</h2>
+        </div>
+        <div class="about">
+            <p></p>
+        </div>
+    </section>
+
+</body>
+
+</html>
+
+
+
+
+
+
+csssssssssssssssssssssss
+
+
+header{
+    display: flex;
+}
+*{
+    margin: 0; 
+    padding: 0;
+}
+.info{
+    text-align: right;
+    margin-left: auto;
+}
+.parts{
+    display: flex;
+    margin-top: 30px;
+}
+.first{
+    border-bottom: 2px solid black;
+}
+.head{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.logo{
+    font-size: 29px;
+    color:#77468d;
+}
+.about{
+    margin-left: 45px;
+    color: grey;
+}
+.title{
+    margin-left: 45px;
+}
+.dates{
+    margin-left: 45px;
+}
+.title{
+    color: #895c9c;
+}
+.titles{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: grey;
+}
+.dates{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: grey;
+}
